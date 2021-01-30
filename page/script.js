@@ -9,9 +9,6 @@ function Click() {
     Img.src = "images/excluir.svg";
     // Deleting items
     Img.addEventListener('click', function Delete() {
-        var pop = prompt("Você deseja excluir este item?");
         ElementP.removeChild(To_do);
-
     })
-
 }
