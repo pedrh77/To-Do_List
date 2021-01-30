@@ -6,7 +6,7 @@ body {
 
 input {
   width: 80%;
-  border: 2px solid gray;
+  border: 2px solid hsl(0, 0%, 50%);
   height: 30px;
   border-radius: 10px;
   text-align: center;
@@ -29,7 +29,7 @@ input::placeholder {
 }
 
 button {
-  color: gray;
+  color: hsl(0, 0%, 50%);
   width: 60px;
   height: 40px;
   background: none;
@@ -59,14 +59,19 @@ ol {
 li {
   border-top: 5px;
   padding-top: 6px;
+  border-bottom: 10px;
   word-break: break-all;
 }
 
-h3 {
-  color: rgb(216, 216, 216);
-  background-color: rgb(194, 46, 46);
-  margin: 20px auto;
-  width: 360px;
+img {
+  width: 25px;
+  position: absolute;
+  right: 20px;
+  padding: 3px;
+  transition: 200ms;
+  margin-top: -5px;
+}
+img:hover {
+  background-color: hsl(0, 59%, 41%);
   border-radius: 5px;
-  font-size: 20px;
 }
